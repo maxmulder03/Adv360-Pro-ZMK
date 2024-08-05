@@ -38,7 +38,7 @@
     compatible = "zmk,behavior-macro";
     label = "macro_mulderctrltab";
     #binding-cells = <0>;
-    bindings = <&kp CTRL>, <&kp TAB>;
+    bindings = <&kp LCTRL>, <&kp TAB>;
   };
   macro_muldercmdtab: macro_muldercmdtab {
   compatible = "zmk,behavior-macro";
