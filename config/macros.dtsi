@@ -60,19 +60,18 @@
     bindings = <&macro_tap release {
       if (mod & (MOD_LSFT | MOD_RSFT)) {
         // Shift is pressed
-        &macro_press LCTRL;
-        &macro_press LALT;
-        &kp RIGHT
-        &macro_release LCTRL;
-        &macro_release LALT;
+        &kp LCTRL;
+        &kp LALT;
+        &kp RIGHT;
+        &kp LCTRL;
+        &kp LALT;
       }
       else {
-        &macro_press LCTRL;
-        &macro_press LALT;
-        &kp LEFT
-        &macro_release LCTRL;
-        &macro_release LALT;
+        &kp LCTRL;
+        &kp LALT;
+        &kp LEFT;
+        &kp LCTRL;
+        &kp LALT;
       }
-    }
-    >
+    }>;
   }
