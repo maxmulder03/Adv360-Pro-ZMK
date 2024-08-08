@@ -62,7 +62,7 @@
 
   macro_car: macro_car  {
     compatible = "zmk,behavior-macro";
-    label = "macro_cal";
+    label = "macro_car";
     #binding-cells = <0>;
     bindings = <&macro_press &kp LCTRL>, <&macro_press &kp LALT>, <&macro_tap &kp RIGHT>, <&macro_release &kp LCTRL>, <&macro_release &kp LALT>;
   };
