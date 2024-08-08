@@ -52,3 +52,27 @@
   #binding-cells = <0>;
   bindings = <&macro_press &kp LGUI> , <&macro_tap &kp SPACE>, <&macro_release &kp LGUI>;
   };
+
+  macro_magnetMgt: macro_magnetMgt {
+    compatible = "zmk,behavior-macro";
+    label = "macro_magnetMgt";
+    #binding-cells = <0>;
+    bindings = <&macro_tap release {
+      if (mod & (MOD_LSFT | MOD_RSFT)) {
+        // Shift is pressed
+        &macro_press LCTRL;
+        &macro_press LALT;
+        &kp RIGHT
+        &macro_release LCTRL;
+        &macro_release LALT;
+      }
+      else {
+        &macro_press LCTRL;
+        &macro_press LALT;
+        &kp LEFT
+        &macro_release LCTRL;
+        &macro_release LALT;
+      }
+    }
+    >
+  }
