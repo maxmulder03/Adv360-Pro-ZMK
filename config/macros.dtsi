@@ -62,17 +62,16 @@
         // Shift is pressed
         &macro_press LCTRL;
         &macro_press LALT;
-        &kp RIGHT
+        &kp RIGHT;
         &macro_release LCTRL;
         &macro_release LALT;
       }
       else {
         &macro_press LCTRL;
         &macro_press LALT;
-        &kp LEFT
+        &kp LEFT;
         &macro_release LCTRL;
         &macro_release LALT;
       }
-    }
-    >
+    }>;
   }
