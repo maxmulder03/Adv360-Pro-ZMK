@@ -58,11 +58,11 @@
     label = "macro_cal";
     #binding-cells = <0>;
     bindings = <&macro_press &kp LCTRL>, <&macro_press &kp LALT>, <&macro_tap &kp LEFT>, <&macro_release &kp LCTRL>, <&macro_release &kp LALT>;
-  }
+  };
 
   macro_car: macro_car  {
     compatible = "zmk,behavior-macro";
     label = "macro_cal";
     #binding-cells = <0>;
-    bindings = <macro_press &kp LCTRL>, <&macro_press &kp LALT>, <&macro_tap &kp LEFT>, <&macro_release &kp LCTRL>, <&macro_release &kp LALT>;
-  }
+    bindings = <&macro_press &kp LCTRL>, <&macro_press &kp LALT>, <&macro_tap &kp LEFT>, <&macro_release &kp LCTRL>, <&macro_release &kp LALT>;
+  };

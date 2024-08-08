@@ -32,7 +32,7 @@
         #binding-cells = <0>;
         bindings = <&macro_cal>, <&macro_car>;
         mods = <(MOD_LSFT|MOD_RSFT)>;
-      }
+      };
     };
 
   keymap {
