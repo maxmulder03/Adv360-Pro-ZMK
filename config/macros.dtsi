@@ -53,25 +53,16 @@
   bindings = <&macro_press &kp LGUI> , <&macro_tap &kp SPACE>, <&macro_release &kp LGUI>;
   };
 
-  macro_magnetMgt: macro_magnetMgt {
+  macro_cal: macro_cal  {
     compatible = "zmk,behavior-macro";
-    label = "macro_magnetMgt";
+    label = "macro_cal";
     #binding-cells = <0>;
-    bindings = <&macro_tap release {
-      if (mod & (MOD_LSFT | MOD_RSFT)) {
-        // Shift is pressed
-        &kp LCTRL;
-        &kp LALT;
-        &kp RIGHT;
-        &kp LCTRL;
-        &kp LALT;
-      }
-      else {
-        &kp LCTRL;
-        &kp LALT;
-        &kp LEFT;
-        &kp LCTRL;
-        &kp LALT;
-      }
-    }>;
+    bindings = <&macro_press &kp LCTRL>, <&macro_press &kp LALT>, <&macro_tap &kp LEFT>, <&macro_release &kp LCTRL>, <&macro_release &kp LALT>;
+  }
+
+  macro_car: macro_car  {
+    compatible = "zmk,behavior-macro";
+    label = "macro_cal";
+    #binding-cells = <0>;
+    bindings = <macro_press &kp LCTRL>, <&macro_press &kp LALT>, <&macro_tap &kp LEFT>, <&macro_release &kp LCTRL>, <&macro_release &kp LALT>;
   }

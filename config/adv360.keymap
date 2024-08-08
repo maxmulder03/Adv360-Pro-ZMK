@@ -26,6 +26,13 @@
           flavor = "tap-preferred";
           bindings = <&kp>, <&kp>;
       };
+
+      macro_magnetMgt : macro_magnetMgt {
+        compatible = "zmk,behavior-mod-morph";
+        #binding-cells = <0>;
+        bindings = <&macro_cal>, <&macro_car>;
+        mods = <(MOD_LSFT|MOD_RSFT)>;
+      }
     };
 
   keymap {
