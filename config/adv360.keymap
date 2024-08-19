@@ -30,7 +30,7 @@
       macro_magnetMgt: macro_magnetMgt {
         compatible = "zmk,behavior-mod-morph";
         #binding-cells = <0>;
-        bindings = <&macro_cal>, <&macro_car>;
+        bindings = <&ctrl_opt_left>, <&ctrl_opt_right>;
         mods = <(MOD_LSFT|MOD_RSFT)>;
       };
     };
@@ -44,7 +44,7 @@
         &kp TAB   &kp Q     &kp W    &kp E    &kp R      &kp T  &macro_dquotes                                                            &macro_brackets &kp Y  &kp U  &kp I     &kp O    &kp P    &kp BSLH
         &kp ESC   &kp A     &kp S    &kp D    &kp F      &kp G  &macro_parens           &kp LCTRL &kp LALT &kp LGUI  &kp LALT           &macro_braces &kp H  &kp J  &kp K     &kp L    &kp SEMI &kp SQT
         &kp LSHFT &kp Z     &kp X    &kp C    &kp V      &kp B                            &macro_muldercmdtab &macro_cmdSpace                           &kp N  &kp M  &kp COMMA &kp DOT  &kp FSLH &kp RSHFT
-        &mo 2     &kp GRAVE &kp LGUI &kp LEFT &kp RIGHT                &kp BSPC &kp DEL   &macro_mulderctrltab  &kp ESC  &kp ENTER &kp SPACE              &kp UP &kp DOWN  &kp LBKT &kp RBKT &mo 3
+        &mo 2     &kp GRAVE &kp LGUI &kp LEFT &kp RIGHT                &kp BSPC &kp DEL   &macro_mulderctrltab  &kp ESC  &kp ENTER &kp SPACE              &kp DOWN &kp UP  &kp LBKT &kp RBKT &mo 3
       >;
     };
     keypad {

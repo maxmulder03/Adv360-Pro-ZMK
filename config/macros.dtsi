@@ -53,16 +53,16 @@
   bindings = <&macro_press &kp LGUI> , <&macro_tap &kp SPACE>, <&macro_release &kp LGUI>;
   };
 
-  macro_cal: macro_cal  {
+  ctrl_opt_left: ctrl_opt_left  {
     compatible = "zmk,behavior-macro";
-    label = "macro_cal";
+    label = "ctrl_opt_left";
     #binding-cells = <0>;
     bindings = <&macro_press &kp LCTRL>, <&macro_press &kp LALT>, <&macro_tap &kp LEFT>, <&macro_release &kp LCTRL>, <&macro_release &kp LALT>;
   };
 
-  macro_car: macro_car  {
+  ctrl_opt_right: ctrl_opt_right  {
     compatible = "zmk,behavior-macro";
-    label = "macro_car";
+    label = "ctrl_opt_right";
     #binding-cells = <0>;
     bindings = <&macro_press &kp LCTRL>, <&macro_press &kp LALT>, <&macro_tap &kp RIGHT>, <&macro_release &kp LCTRL>, <&macro_release &kp LALT>;
   };
