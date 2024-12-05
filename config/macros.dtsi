@@ -71,5 +71,5 @@
     compatible = "zmk,behavior-macro";
     label = "split_screen_1";
     #binding-cells = <0>;
-    bindings = <&macro_press &kp LALT>, <&kp K>, <&macro_release &kp LALT>, <&macro_press &kp LCTRL>, <&macro_press &kp LALT>, <&kp RIGHT>, <&macro_release &kp LGUI>, <&macro_release &kp LALT>,<&macro_press &kp LALT>, <&kp J>, <&macro_release &kp LALT>, <&macro_press &kp LCTRL>, <&macro_press &kp LALT>, <&kp LEFT>, <&macro_release &kp LGUI>, <&macro_release &kp LALT>;
+    bindings = <&macro_press &kp LALT>, <&kp K>, <&macro_release &kp LALT>, <&macro_press &kp LCTRL>, <&macro_press &kp LALT>, <&kp RIGHT>, <&macro_release &kp LCTRL>, <&macro_release &kp LALT>,<&macro_press &kp LALT>, <&kp J>, <&macro_release &kp LALT>, <&macro_press &kp LCTRL>, <&macro_press &kp LALT>, <&kp LEFT>, <&macro_release &kp LCTRL>, <&macro_release &kp LALT>;
   };
