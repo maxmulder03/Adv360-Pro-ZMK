@@ -83,5 +83,6 @@
       <&kp J>, 
       <&macro_press &kp LCTRL>, 
       <&kp LEFT>, 
-      <&macro_release &kp LCTRL &kp LALT>;
+      <&macro_release &kp LCTRL>,
+      <&macro_release &kp LALT>;  
   };
