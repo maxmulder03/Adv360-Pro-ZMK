@@ -76,13 +76,13 @@
     bindings 
       = 
       <&macro_press &kp LALT>, 
-      <&kp K>,
+      <&macro_tap &kp K>,
       <&macro_press &kp LCTRL>, 
-      <&kp RIGHT>,
+      <&macro_tap &kp RIGHT>,
       <&macro_release &kp LCTRL>, 
-      <&kp J>, 
+      <&macro_tap &kp J>, 
       <&macro_press &kp LCTRL>, 
-      <&kp LEFT>, 
+      <&macro_tap &kp LEFT>, 
       <&macro_release &kp LCTRL>,
       <&macro_release &kp LALT>;  
   };
