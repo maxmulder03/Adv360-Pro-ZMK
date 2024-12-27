@@ -67,8 +67,6 @@
     bindings = <&macro_press &kp LCTRL>, <&macro_press &kp LALT>, <&macro_tap &kp RIGHT>, <&macro_release &kp LCTRL>, <&macro_release &kp LALT>;
   };
 
-
-  /* TODO: Check if behavior works after getting rid of some of the releases */
   split_screen_1: split_screen_1 {
     compatible = "zmk,behavior-macro";
     label = "split_screen_1";
