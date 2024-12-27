@@ -39,14 +39,14 @@
         #binding-cells = <0>;
         bindings = <&kp C_VOL_UP>, <&kp C_VOL_DOWN>;
         mods = <(MOD_LSFT|MOD_RSFT)>;
-      }
+      };
 
       macro_audio_play: macro_audio_play {
         compatible = "zmk,behavior-mod-morph";
         #binding-cells = <0>;
         bindings = <&macro_audio>, <&kp C_PLAY_PAUSE>;
-        mods = <(MOD_LSFT|MOD_RSFT)>;
-      }
+        mods = <(MOD_LCTRL|MOD_RCTRL)>;
+      };
     };
 
   keymap {
