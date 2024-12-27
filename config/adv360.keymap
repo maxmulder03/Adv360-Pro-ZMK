@@ -38,7 +38,7 @@
         compatible = "zmk,behavior-mod-morph";
         label = "macro_audio";
         #binding-cells = <0>;
-        bindings = <&macro_tap C_VOL_UP>, <&macro_tap C_VOL_DOWN>;
+        bindings = <&macro_tap C_VOLUME_UP>, <&macro_tap C_VOLUME_DOWN>;
         mods = <(MOD_LSFT|MOD_RSFT)>;
       };
 
