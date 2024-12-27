@@ -45,7 +45,7 @@
         compatible = "zmk,behavior-mod-morph";
         #binding-cells = <0>;
         bindings = <&macro_audio>, <&kp C_PLAY_PAUSE>;
-        mods = <(MOD_LCTRL|MOD_RCTRL)>;
+        mods = <(MOD_LCTL|MOD_RCTL)>;
       };
     };
 
