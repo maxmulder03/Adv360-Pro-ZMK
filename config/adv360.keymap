@@ -58,9 +58,9 @@
       bindings = <
         &kp EQUAL &kp N1    &kp N2   &kp N3   &kp N4     &kp N5 &macro_magnetMgt                                                           &kp MINUS &kp N6 &kp N7 &kp N8    &kp N9   &kp N0   &kp MINUS
         &kp TAB   &kp Q     &kp W    &kp E    &kp R      &kp T  &macro_dquotes                                                            &split_screen_1 &kp Y  &kp U  &kp I     &kp O    &kp P    &kp BSLH
-        &kp ESC   &kp A     &kp S    &kp D    &kp F      &kp G  &macro_audio_play           &kp LCTRL &kp LALT &kp LGUI  &kp LALT           &macro_braces &kp H  &kp J  &kp K     &kp L    &kp SEMI &kp SQT
+        &kp ESC   &kp A     &kp S    &kp D    &kp F      &kp G  &macro_audio_play           &kp LCTRL &kp LALT &kp LALT  &kp LGUI           &macro_braces &kp H  &kp J  &kp K     &kp L    &kp SEMI &kp SQT
         &kp LSHFT &kp Z     &kp X    &kp C    &kp V      &kp B                            &macro_muldercmdtab &macro_cmdSpace                           &kp N  &kp M  &kp COMMA &kp DOT  &kp FSLH &kp RSHFT
-        &mo 2     &kp GRAVE &kp LGUI &kp LEFT &kp RIGHT                &kp BSPC &kp DEL   &macro_mulderctrltab  &mo 3  &kp ENTER &kp SPACE              &kp LBKT &kp RBKT  &kp DOWN &kp UP &mo 3
+        &mo 2     &kp GRAVE &kp LALT &kp LEFT &kp RIGHT                &kp BSPC &kp DEL   &macro_mulderctrltab  &mo 3  &kp ENTER &kp SPACE              &kp LBKT &kp RBKT  &kp DOWN &kp UP &mo 3
       >;
     };
     keypad {
